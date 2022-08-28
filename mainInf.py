@@ -1,11 +1,12 @@
 import turtle
 import fibo
 
+num = int(input(">. "))
 t = turtle.Turtle()
 turtle.bgcolor("#0040ff")
 t.pencolor("white")
 t.pensize(2)
-fibo = fibo.get(22)
+fibo = fibo.get(num)
 count = 0
 for i in fibo:
     print(f"iter: {i}")
